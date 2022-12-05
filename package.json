@@ -30,6 +30,7 @@
     "pretest": "run-s build",
     "docs": "typedoc",
     "pre-commit": "lint-staged",
+    "prepare": "tsup",
     "test": "run-p test:*",
     "test:prettier": "prettier '**/*.{js,jsx,ts,tsx}' --check"
   },
