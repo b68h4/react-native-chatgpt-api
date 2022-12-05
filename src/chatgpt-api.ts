@@ -1,6 +1,7 @@
 import { createParser } from 'eventsource-parser'
 import ExpiryMap from 'expiry-map'
 import fetch from 'node-fetch'
+import 'react-native-get-random-values'
 import { v4 as uuidv4 } from 'uuid'
 
 import * as types from './types'
